@@ -2,3 +2,26 @@ body {
     background-color: rgb(249, 16, 16);
     font-family: arial, sans-serif;
 }
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{ 
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: pink; 
+}
